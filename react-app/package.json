@@ -10,7 +10,10 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
-  "eslintConfig": {
+  "engines": {
+    "node": "16.14.2"
+  },
+    "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": [
